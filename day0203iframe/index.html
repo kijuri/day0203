@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>index.html</title>
+	<style type="text/css">
+		* {
+			font-family: cooper;
+			font-weight: bold;
+			color: grey;
+		}
+		h3{
+			font-size: 35pt;
+			padding-left: 10pt;
+		}
+
+		a {
+			color: grey;
+			text-decoration: none;
+			font-size: 16pt;
+			font-weight: bold;
+		}
+
+		a:hover {
+			color: lightgrey;
+			font-size: 16pt;
+			font-weight: bold;
+		}
+	</style>
+</head>
+
+<body>
+	<div style="border: 1px solid gray">
+		<a href='index.html'><h3>City Life</h3> </a> 
+		<script>
+			function fnURL(url) {
+				document.getElementById('main_frame').src = url;
+			};
+
+		</script>
+			<a href="http://www.childfund.or.kr" target="_blank">&nbsp;&nbsp;Home</a>
+			<a href="#" onclick="fnURL('movie.html');">&nbsp;&nbsp;&nbsp;Motivation</a>
+			<a href="#" onclick="fnURL('support.html');">&nbsp;&nbsp;&nbsp;Donation</a><p></p>
+
+		<iframe id="main_frame" src="main.html" width="860" height="500" target="link"></iframe>
+		<p>
+
+
+			202-82-55238
+		<p>
+			2016-03-23 1588-1940 copyright 2013 childfund korea. all right reserved.
+	</div>
+
+</body>
+
+</html>
